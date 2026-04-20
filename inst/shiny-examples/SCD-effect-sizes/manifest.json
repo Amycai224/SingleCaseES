@@ -183,7 +183,7 @@
         "Package": "SingleCaseES",
         "Type": "Package",
         "Title": "A Calculator for Single-Case Effect Sizes",
-        "Version": "0.7.3.9999",
+        "Version": "0.7.3",
         "Authors@R": "c(\n  person(c(\"James\",\"E.\"), \"Pustejovsky\", email = \"jepusto@gmail.com\", role = c(\"aut\", \"cre\")),\n  person(\"Man\", \"Chen\", email = \"manchen9005@gmail.com\", role = \"aut\"),\n  person(c(\"Daniel\",\"M.\"), \"Swan\", email = \"dms031000@gmail.com\", role = \"aut\"),\n  person(\"Paulina\", \"Grekov\", email = \"grekov.paulina@gmail.com\", role = \"ctb\")\n  )",
         "Description": "\n  Provides R functions for calculating basic effect size indices for \n  single-case designs, including several non-overlap measures and parametric \n  effect size measures, and for estimating the gradual effects model developed \n  by Swan and Pustejovsky (2018) <DOI:10.1080/00273171.2018.1466681>. \n  Standard errors and confidence intervals (based on the assumption that the outcome \n  measurements are mutually independent) are provided for the subset of effect sizes \n  indices with known sampling distributions.",
         "URL": "https://jepusto.github.io/SingleCaseES/",
@@ -197,10 +197,12 @@
         "Language": "en-US",
         "VignetteBuilder": "knitr, rmarkdown, cleanrmd",
         "NeedsCompilation": "no",
-        "Packaged": "2026-02-08 20:37:03 UTC; amycai",
+        "Packaged": "2024-09-07 00:19:14 UTC; jepusto",
         "Author": "James E. Pustejovsky [aut, cre],\n  Man Chen [aut],\n  Daniel M. Swan [aut],\n  Paulina Grekov [ctb]",
         "Maintainer": "James E. Pustejovsky <jepusto@gmail.com>",
-        "Built": "R 4.4.2; ; 2026-02-08 20:37:03 UTC; unix"
+        "Repository": "CRAN",
+        "Date/Publication": "2024-09-07 09:30:02 UTC",
+        "Built": "R 4.4.1; ; 2024-09-07 12:28:19 UTC; unix"
       }
     },
     "base64enc": {
