@@ -4724,6 +4724,9 @@
     "inst/shiny-examples/gem-scd/ui.R": {
       "checksum": "08f71d42e226b2c39abac70e0bf4d672"
     },
+    "inst/shiny-examples/SCD-effect-sizes/app.R": {
+      "checksum": "04853a236b6d4e5ac5ac38a86f0d84ea"
+    },
     "inst/shiny-examples/SCD-effect-sizes/helper-functions.R": {
       "checksum": "5ab9d6bc9bff14c8c1d9fa977c0e1114"
     },
