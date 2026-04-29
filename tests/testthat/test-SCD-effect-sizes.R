@@ -505,7 +505,7 @@ check_load <- function(app, file, digits = 6, Kendall = FALSE) {
     html_table(fill = TRUE,convert = TRUE,na.strings = "-") %>%
     .[[1]] %>%
     as.data.frame()
-
+ }
 
 test_that("Data are uploaded correctly.", {
   
@@ -937,7 +937,6 @@ test_that("The warning message is shown when an outcome measurement type is not 
   
 })
 
-
 test_that("The warning message is shown when an improvement direction is not acceptable.", {
   
   skip_on_cran()
@@ -971,5 +970,5 @@ test_that("The warning message is shown when an improvement direction is not acc
   warning <- warning[1]
   expect_equal(warning,
                "The improvement direction variable contains non-acceptable types: incrase, direction. The acceptable improvement directions are: increase or decrease.")
-  
+
 })

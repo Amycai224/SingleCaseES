@@ -572,6 +572,7 @@ batch_calc_ES <- function(dat,
       ES_weights <- 
         ES_ests_long |> 
         dplyr::left_join(n_weights, by = c(grouping, aggregate))
+    }
     
     # Aggregate
     
